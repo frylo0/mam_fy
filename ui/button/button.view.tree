@@ -1,0 +1,3 @@
+$fy_ui_button $mol_view
+	dom_name \button
+	style_size *
