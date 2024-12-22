@@ -4,5 +4,8 @@ $fy_hello $mol_view
 			hint \Name
 			value? <=> name? \
 		<= message \
-		<= Button $fy_ui_button sub /
-			\Click me
+		<= Button $fy_ui_button 
+			event *
+				click? <=> on_button_click?
+			sub /
+				\Click me
